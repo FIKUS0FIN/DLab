@@ -1,0 +1,1 @@
+/usr/bin/python infrastructure-provisioning/scripts/deploy_dlab.py --conf_service_base_name dlab --gcp_region us-west1 --gcp_zone us-west1-a --conf_os_family debian --conf_cloud_provider gcp --key_path /key/path/ --conf_key_name key_name --gcp_ssn_instance_size n1-standard-1 --gcp_project_id project_id --gcp_service_account_path /path/to/auth/file.json --action create
